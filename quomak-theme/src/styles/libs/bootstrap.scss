@@ -1,0 +1,32 @@
+.form-control:focus,
+.form-select:focus,
+.form-control.is-invalid:focus, .was-validated .form-control:invalid:focus,
+.btn,
+.btn:active,
+.btn:active:focus,
+.btn:focus{
+    box-shadow:none;
+}
+.btn-icon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-borderless{
+    border: none;
+}
+
+.form-group {
+    .form-label{
+        font-weight: 500;
+    }
+    .form-control:focus{
+        border-color: #2563eb;
+        border-width:2px;
+    }
+}
+
+table.table th{
+    font-weight: 500;
+}

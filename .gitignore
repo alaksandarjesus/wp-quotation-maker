@@ -1,0 +1,5 @@
+quomak-plugin/vendor
+quomak-theme/node_modules/
+quomak-theme/public/
+quomak-theme/seeds.txt
+quomak-theme/package-lock.json

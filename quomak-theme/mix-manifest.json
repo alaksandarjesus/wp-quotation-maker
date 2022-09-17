@@ -1,0 +1,10 @@
+{
+    "/public/scripts/libs.js": "/public/scripts/libs.js",
+    "/public/scripts/app.js": "/public/scripts/app.js",
+    "/public/scripts/guest.js": "/public/scripts/guest.js",
+    "/public/scripts/user.js": "/public/scripts/user.js",
+    "/public/scripts/administrator.js": "/public/scripts/administrator.js",
+    "/public/scripts/subscriber.js": "/public/scripts/subscriber.js",
+    "/public/styles/libs.css": "/public/styles/libs.css",
+    "/public/styles/app.css": "/public/styles/app.css"
+}

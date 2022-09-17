@@ -1,0 +1,33 @@
+{
+  "name": "lenovo/quomak",
+  "authors": [
+    {
+      "name": "Alaksandar Jesus Gene",
+      "email": "alaksandarjesus@yahoo.co.in"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "^3.2",
+    "rakit/validation": "^1.4",
+    "vlucas/phpdotenv": "^5.4",
+    "rappasoft/laravel-helpers": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Plugin\\Core\\": "src/core/",
+      "Plugin\\DB\\": "src/db/",
+      "Plugin\\Pages\\": "src/pages/",
+      "Plugin\\Validator\\": "src/validator/",
+      "App\\Controllers\\": "app/controllers/",
+      "App\\Models\\": "app/models/"
+    },
+    "classmap": [
+      "src/core/",
+      "src/db/",
+      "src/pages/",
+      "src/validator/",
+      "app/controllers/",
+      "app/models/"
+    ]
+  }
+}

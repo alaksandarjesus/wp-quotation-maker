@@ -1,0 +1,39 @@
+.table.quotation-form{
+    thead{
+        th{
+            text-align: center;
+            vertical-align: middle;
+        }
+    }
+    tbody{
+        td {
+            padding:0;
+            .form-select,
+            .form-control{
+                border-radius: 0;
+                border-width: 0;
+            }
+            &.sno{
+                text-align: center;
+                vertical-align: middle;
+            }
+            &.unit{
+                text-align: center;
+                vertical-align: middle;
+            }
+            &.code{
+                text-align: center;
+                vertical-align: middle;
+            }
+        }
+    }
+    tfoot{
+        td {
+            padding:0;
+            .form-control{
+                border-radius: 0;
+                border-width: 0;
+            }
+        }
+    }
+}

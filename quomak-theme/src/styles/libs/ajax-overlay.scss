@@ -1,0 +1,10 @@
+.ajax-overlay{
+    display: none;
+}
+body.has-ajax-overlay{
+    overflow: hidden;
+    .ajax-overlay{
+        display:block;
+        z-index:2000;
+    }
+}
